@@ -3,7 +3,6 @@ package main
 import (
 	"bufio"
 	"bytes"
-	"code.google.com/p/go.text/unicode/norm"
 	"encoding/binary"
 	"flag"
 	"fmt"
@@ -15,6 +14,8 @@ import (
 	"runtime"
 	"strconv"
 	"time"
+
+	"golang.org/x/text/unicode/norm"
 )
 
 const (
